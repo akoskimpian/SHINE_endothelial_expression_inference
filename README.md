@@ -8,10 +8,10 @@ This repository currently contains the preprocessing pipeline for this work; the
 
 # Script descriptions
 The input of the scripts originates from the accession GSE30169, and can be accessed through the dbGaP database through the accession phs002057.v1.p1.
-The majority of these scripts are data exploratory and data wrangling in nature.
 The scripts are numbered in order of execution where relevant
 
 ## initial_preprocessing
+The majority of these scripts are data exploratory and data wrangling in nature.
 
 ### 1_dealing_with_metadata.R
 Loads and parses the dbGaP metadata files. Extracts subject-level sex information and formats it for use downstream.
