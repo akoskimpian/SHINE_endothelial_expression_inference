@@ -26,7 +26,7 @@ subject_multi <- read_dbgap_v3("path/to/dbgap/dataset/data/phs002057.v1.p1/phs00
 sample_data <- read_dbgap_v3("path/to/dbgap/dataset/data/phs002057.v1.p1/phs002057.v1.pht010400.v1.p1.ECs_Sample.MULTI.txt.gz")
 
 ####Load in ancestry PCs
-file_path <- "C:/Users/AKIM0004/Documents/azure_docker_pca_peer/smartpca_input/pca_output.evec"
+file_path <- "pca_output.evec"
 
 # Read the file (skip eigenvalue line)
 
