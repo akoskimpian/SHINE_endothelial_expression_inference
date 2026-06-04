@@ -10,6 +10,16 @@ This repository currently contains the preprocessing pipeline for this work; the
 The input of the scripts originates from the accession GSE30169, and can be accessed through the dbGaP database through the accession phs002057.v1.p1.
 The scripts are numbered in order of execution where relevant
 
+## Requirements
+**Software**
+- R (≥ 4.0)
+- [PLINK 1.9](https://www.cog-genomics.org/plink/)
+- [EigenSoft](https://github.com/DReichLab/EigenSoft) (for `smartpca`)
+- [PEER](https://github.com/PMBio/peer)
+
+**R packages**
+`affy`, `limma`, `hthgu133a.db`, `vvcfR`, `VariantAnnotation`, `Rsamtools`, `AnnotationDbi`, `tidyverse`
+
 ## initial_preprocessing
 The majority of these scripts are data exploratory and data wrangling in nature.
 
